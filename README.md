@@ -14,7 +14,7 @@ Command line	python occlusion_merge.py 1.xml 2.xml result.xml (Python 3.9+)
 Usage
 Convert both occlusion.ymap files to XML with CodeWalker (RPF Explorer → select the file → Export XML).
 Give the two XML files to the tool, click Merge, and save the result.
-In CodeWalker, convert the result back to .ymap with Import XML.
+In CodeWalker, convert the result back to .ymap with drag and drop to RPF Explorer.
 Remove the old occlusion files from both maps and use the new file in one place only.
 How it works
 
@@ -48,7 +48,7 @@ Komut satırı	python occlusion_merge.py 1.xml 2.xml sonuc.xml (Python 3.9+)
 Kullanım
 CodeWalker ile iki occlusion.ymap dosyasını XML'e çevir (RPF Explorer → dosyayı seç → Export XML).
 Araca iki XML'i ver, Birleştir'e bas, sonucu kaydet.
-CodeWalker'da sonucu Import XML ile tekrar .ymap'e çevir.
+CodeWalker'da sonucu RPF Explorer'a sürükleyip bırak ve tekrar .ymap'e dönüştür.
 Eski occlusion dosyalarını iki mapten de sil, yeni dosyayı yalnızca bir yerde kullan.
 Nasıl çalışır?
 
